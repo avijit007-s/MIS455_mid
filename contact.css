@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080808;
+    height: 800px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(13, 14, 13);
+  }
+  
+  /* Style the outer box */
+  .contact-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #3ea8e6;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .contact-info {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(0, 255, 47);
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .footer {
+    background-color: #00ff0d;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
+  .header {
+    background-color: rgb(1, 255, 52);
+    padding: 10px;
+    text-align: center;
+  }
+  .navbar {
+    background-color: rgb(56, 60, 55);
+    padding: 7px 0;
+    border-radius: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 21px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    margin: 0 20px;
+  }
+  
+  .navbar ul li a {
+    color: rgb(250, 254, 255);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  
+  .navbar ul li a[id="h"]:hover {
+    background-color: #06ff0e; 
+  }
+  
+  .navbar ul li a[id="p"]:hover {
+    background-color: #00ff15; 
+  }
+  
+  .navbar ul li a[id="c"]:hover {
+    background-color: #14f500; 
+  }
+  
